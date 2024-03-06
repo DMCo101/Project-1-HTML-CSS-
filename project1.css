@@ -1,0 +1,141 @@
+body {
+    background-color: whitesmoke;
+    color:cornflowerblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1800px;
+    height: auto;
+    justify-content: center;
+}
+
+h1 {
+    color: cornflowerblue;
+    border-style:  ridge;
+    border-color: blue;
+    background-color: lightblue;
+    padding: 60px;
+    text-align: center;
+    
+    width: auto;
+    height: auto;
+}
+
+h1:hover {
+    color: blue;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 160px;
+    gap: 20px;
+    padding: 30px;
+}
+
+#container:hover {
+    color: blue;
+}
+
+.links, .edu, .con {
+    flex-basis: 100%;
+    flex-grow: 1;
+    background-color: lightblue;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border-color:  blue;
+    border-style: ridge;
+    border-width: 2px;
+    transition: all 100ms ease-in-out;
+    line-height: 100px;
+}
+
+.links:hover {
+    flex-grow: 1;
+    transform: scale(1.05, 1.05);
+    color:blue;
+    text-decoration: underline;
+    font-size: 40px;
+    cursor: pointer;
+    
+    
+}
+
+.edu:hover {
+    flex-grow: 1;
+    transform: scale(1.05, 1.05);
+    color:blue;
+    text-decoration: underline;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.con:hover { 
+    flex-grow: 1;
+    transform: scale(1.05, 1.05);
+    color:blue;
+    text-decoration: underline;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+ aside, article {
+    border: 2px ridge blue;
+    background-color: lightblue;
+    padding-top: 30px;
+    margin: 30px;
+    height: auto;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+aside:hover , article:hover {
+    color: blue;
+}
+
+.rm:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+}
+
+.rm:active {
+    transform: scale(0.95);
+}
+
+.edu:active, .con:active, .links:active {
+    transform: scale(0.95);
+}
+
+footer {
+    background-color: lightblue;
+    padding-bottom: 5px;
+    margin: 20px;
+    justify-content: center;
+    border: 2px solid blue;
+    transition: all 100ms ease-in-out;
+    
+}
+
+footer:hover {
+    color:blue;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer:active {
+    transform: scale(0.95);
+}
+
+div {
+    display: flex;
+    gap: 3px;
+}
+
